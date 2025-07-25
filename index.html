@@ -1,87 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shubham Kumar | SRE & Cloud Engineer</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a2e0d5e7d4.js" crossorigin="anonymous"></script>
-  <style>
-    body {
-      background-color: #f8f9fa;
-    }
-    .hero {
-      padding: 80px 0;
-      background: linear-gradient(135deg, #007bff, #6610f2);
-      color: white;
-      text-align: center;
-    }
-    .section-title {
-      margin-top: 60px;
-      margin-bottom: 30px;
-    }
-    footer {
-      margin-top: 60px;
-      padding: 20px 0;
-      background-color: #343a40;
-      color: white;
-      text-align: center;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/95a2002ecf.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.jpg" type="image/x-png">
+    <title>Shubham Kumar</title>
 </head>
 <body>
+<header>
+        <a href="" class="logo"></i> Shubham Kumar</a>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Shubham Kumar</h1>
-    <p class="lead">Site Reliability Engineer | AWS & Kubernetes Specialist</p>
-    <p>Helping teams scale with reliable cloud infrastructure and automation</p>
-  </section>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
 
-  <!-- About Section -->
-  <section class="container">
-    <h2 class="section-title text-center">About Me</h2>
-    <p class="text-center">
-      I’m a Site Reliability Engineer with 4+ years of experience working with AWS, Kubernetes (EKS), Hadoop, and CI/CD pipelines.
-      I specialize in building scalable and secure infrastructure, automating deployments, and ensuring high availability.
-    </p>
-  </section>
 
-  <!-- Skills Section -->
-  <section class="container">
-    <h2 class="section-title text-center">Skills</h2>
-    <div class="row text-center">
-      <div class="col-md-4"><strong>AWS (EC2, S3, Load Balancers, IAM)</strong></div>
-      <div class="col-md-4"><strong>Kubernetes & EKS</strong></div>
-      <div class="col-md-4"><strong>Terraform, GitHub Actions, Jenkins</strong></div>
-      <div class="col-md-4"><strong>Linux, Shell Scripting</strong></div>
-      <div class="col-md-4"><strong>Cloudera, Hadoop, Hive</strong></div>
-      <div class="col-md-4"><strong>Monitoring (Prometheus, Grafana)</strong></div>
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Shubham<span></span></h2>
+    <p>An experienced <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/albatku/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/shubham-io/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/shubham-cpr" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
     </div>
-  </section>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/personal.jpg" alt="" height="">
+</div>
+</section>
+<!-- hero section ends -->
 
-  <!-- Projects Section -->
-  <section class="container">
-    <h2 class="section-title text-center">Projects</h2>
-    <ul>
-      <li><strong>Infrastructure as Code for Multi-Region EKS</strong> – Automated deployment using Terraform and GitHub Actions.</li>
-      <li><strong>Hadoop Platform Migration</strong> – Migrated on-prem Hadoop clusters to CDP with Ranger policies and S3 access.</li>
-      <li><strong>Cost Optimization Framework</strong> – Built auto-scaling, spot-instance-based architecture saving 30% AWS costs.</li>
-    </ul>
-  </section>
 
-  <!-- Contact Section -->
-  <section class="container text-center">
-    <h2 class="section-title">Contact</h2>
-    <p>Email: <a href="mailto:shubham@example.com">shubham@example.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/shubhamkumar" target="_blank">linkedin.com/in/shubhamkumar</a></p>
-    <p>GitHub: <a href="https://github.com/shubhamkumar" target="_blank">github.com/shubhamkumar</a></p>
-  </section>
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
 
-  <footer>
-    &copy; 2025 Shubham Kumar • All rights reserved
-  </footer>
- <script src="script.js"></script>
+    <!-- <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile1.png" alt="">
+    </div> -->
+    <div class="content">
+        <h3>I'm Shubham Kumar</h3>
+        <span class="tag">Platform Engineer</span>
+        
+        <p>I am a Platform Engineer based in Hyderabad, India. 
+          I am very passionate about Kubernetes, BigData and Cloud Platforms.
+          I build platforms which can handle petabytes of data.
+          Working for myself to improve my skills.
+          Love to automate. </p>
+        
+        <div class="box-container">
+            <div class="box">
+              <!-- <p><span> age: </span> 25</p> -->
+              <p><span> phone : </span> +91 9547702303</p>
+              <p><span> email : </span> 17bec1114@gmail.com</p>
+              <p><span> place : </span> Hyderabad, India</p>
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <!-- <a href="./assets/resume/shubham_kumar_devops.pdf" target="_blank" class="btn"> <download> </download> <span>Resume</span> <i class="fas fa-chevron-right"></i>
+            </a> -->
+            <a href="./assets/resume/shubham_kumar_devops.pdf" class="btn" download>
+              <span>Resume</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/TailwindCSS.png"/>
+                <span>Kubernetes</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/icons8-react-100.png" height="50" width="50">
+                <span>AWS</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/figma.png" height="50" width="50">
+                <span>Linux</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/javascript.png" height="50" width="50">
+                <span>Jenkins</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/java.png" height="50" width="50">
+                <span>Hadoop</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/bootstrap.png" height="50" width="50">
+                <span>Helm</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/python.png" height="50" width="50">
+                <span>Docker</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/github.png" height="50" width="50">
+                <span>ArgoCD</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/firebase.png" height="50" width="50">
+                <span>Karpenter</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/nodejs.png" height="50" width="50">
+                <span>Neo4j</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/aws.png" height="50" width="50">
+                <span>Prometheus</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/sql.png" height="50" width="50">
+                <span>SQL</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/mongodb.png" height="50" width="50">
+                <span>Grafana</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/php.png" height="50" width="50">
+                <span>Loki</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/spring-boot.png" height="50" width="50">
+                <span>Python</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/ruby.png" height="50" width="50">
+                <span>Airflow</span>
+              </div>
+            </div>
+            <!-- <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/go.png" height="50" width="50">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/C++.png" height="50" width="50">
+                <span>C++</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/C.png" height="50" width="50">
+                <span>C</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/css.png" height="50" width="50">
+                <span>CSS</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/digitalocean.png" height="50" width="50">
+                <span>DigitalOcean</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/azure.png" height="50" width="50">
+                <span>Azure</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/skills/angular.png" height="50" width="50">
+                <span>Angular</span>
+              </div>
+            </div> -->
+
+      </div>
+</div>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">True education empowers the mind — not to memorize, but to think critically, creatively, and courageously</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <!-- <div class="image">
+        <img draggable="false" src="./assets/images/educat/CU.jpg" alt="">
+        </div> -->
+        <div class="content">
+        <h3>Bachelor of Engineering</h3>
+        <p>Chandigarh University</p>
+        <h4>2017-2021</h4>
+        </div>
+    </div>
+    <div class="box">
+      <!-- <div class="image">
+      <img draggable="false" src="./assets/images/educat/dav-siliguri.PNG" alt="">
+      </div> -->
+      <div class="content">
+      <h3>Intermediate</h3>
+      <p>DAV School</p>
+      <h4>2015-2017</h4>
+      </div>
+    </div>
+    <div class="box">
+      <!-- <div class="image">
+      <img draggable="false" src="./assets/images/educat/masamad.jpg" alt="">
+      </div> -->
+      <div class="content">
+      <h3>High School</h3>
+      <p>Chapra Central School</p>
+      <h4>Completed in 2015</h4>
+      </div>
+    </div>
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<!-- <section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio.png" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/aicma.png" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>AICMA Bhadohi</h3>
+        </div>
+        <div class="desc">
+          <p>AICMA Bhadohi</p>
+          <div class="btns">
+            <a href="https://aicma.co.in/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/moderntek.png" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Modern Tek</h3>
+        </div>
+        <div class="desc">
+          <p>Modern Tek IT Solution Company</p>
+          <div class="btns">
+            <a href="https://moderntek.co.in/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/deeniyat.png" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Deeniyat Rugs</h3>
+        </div>
+        <div class="desc">
+          <p>Deeniyat Rugs</p>
+          <div class="btns">
+            <a href="https://www.deeniyatrugs.com/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/ayub.png" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Ayub Rugs</h3>
+        </div>
+        <div class="desc">
+          <p>Ayub Rugs</p>
+          <div class="btns">
+            <a href="https://ayubrugs.com/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+</section> -->
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Work Timeline </h2>
+
+  <div class="timeline">
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Platform Engineer</h2>
+        </div>
+        <div class="desc">
+            <p>Designing and managing BigData Platforms</p>
+        </div>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Site Reliability Engineer</h2>
+        </div>
+        <div class="desc">
+            <p>Managed Cloudera's CDP backed by AWS along with in-house ETL tool and third-party applications</p>
+        </div>
+      </div>
+    </div>
+
+    
+</div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <!-- <h3>Shubham's Portfolio</h3> -->
+          <p>I enjoy connecting with new people over coffee, a drink, or a great conversation.</p>
+          <br>
+          </br>
+          <p>Feel free to reach out and say hello!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> Education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> Work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> Experience</a>
+      </div>
+
+      <div class="box">
+          <h3>Contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 9547702303</p>
+          <p> <i class="fas fa-envelope"></i>17bec1114@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Hyderabad, India</p>
+          <div class="share">
+            <a class="instagram" aria-label="Instagram" href="https://www.instagram.com/albatku/"><i class="fab fa-instagram" target="_blank"></i></a>
+            <a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/shubham-io/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+            <a class="github" aria-label="GitHub" href="https://github.com/shubham-cpr" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit"><i class="fa fa-heart pulse"></i><a href=""></a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
 </body>
 </html>
